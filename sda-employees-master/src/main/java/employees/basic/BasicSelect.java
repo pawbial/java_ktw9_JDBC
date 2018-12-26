@@ -9,7 +9,7 @@ public class BasicSelect {
         Connection conn = DriverManager.getConnection(
                 "jdbc:mysql://localhost/employees?serverTimezone=UTC",
                 "root",
-                "java");
+                "***");
         Statement stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery(query);
         while(rs.next()) {

@@ -10,6 +10,6 @@ public class ConnectionFactory {
         return DriverManager.getConnection(
                 "jdbc:mysql://localhost/employees?serverTimezone=UTC&allowMultiQueries=true",
                 "root",
-                "java");
+                "***");
     }
 }
